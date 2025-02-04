@@ -3,6 +3,10 @@
 $route = [
     "/" => "controllers/welcome.controller.php",
     "/login" => "controllers/auth/login.controller.php",
+    "/logout" => "controllers/auth/logout.controller.php",
+    "/admin/dashboard" => "controllers/admin/index.php",
+    "/manager/dashboard" => "views/manager/dashboard.php", 
+    "/teacher/dashboard" => "views/teacher/dashboard.php"
     
 ];
 

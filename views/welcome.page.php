@@ -1,4 +1,4 @@
-<?php require "partials/header.php"; ?>
+
 <?php require "partials/navigation.php"; ?>
 
 <div class="container-fluid p-5">
@@ -15,4 +15,3 @@
 </div>
 
 
-<?php require "partials/footer.php"; ?>

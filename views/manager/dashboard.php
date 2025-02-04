@@ -1,0 +1,1 @@
+<h1>This is Manager dashboard</h1>

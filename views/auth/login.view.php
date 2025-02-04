@@ -13,13 +13,20 @@
                 </div>
                 <form action="" method="POST">
                     <div class="form-floating mb-3">
-                        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                        <input type="email" name="email" class="form-control" id="floatingInput" placeholder="name@example.com">
                         <label for="floatingInput">Email address</label>
                     </div>
                     <div class="form-floating mb-4">
-                        <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                        <input type="password" name="password" class="form-control" id="floatingPassword" placeholder="Password">
                         <label for="floatingPassword">Password</label>
                     </div>
+                    <?php if (isset($error)) { ?>
+                        <div class="alert alert-danger">
+                            <p>
+                                <?php echo $error; ?>
+                            </p>
+                        </div>
+                    <?php } ?>
                     <button type="submit" class="btn btn-primary py-3 w-100 mb-4">Sign In</button>
                 </form>
             </div>
